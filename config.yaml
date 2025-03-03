@@ -83,7 +83,9 @@ submodels:
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/ocean/grids/mosaic/global.1deg/2020.05.19/grid_spec.nc
         # Basin mask
         - /g/data/vk83/configurations/inputs/access-esm1p5/modern/share/ocean/basins/global.1deg/2020.05.19/basin_mask.nc
-
+        # Pacemaker inputs
+        - /g/data/x77/gf6872/pacemakers/pacemaker_inputs/minus30/temp_sfc_restore.nc
+        - /g/data/x77/gf6872/pacemakers/pacemaker_inputs/mask/restore_mask.nc
     - name: ice
       model: cice
       ncpus: 12
